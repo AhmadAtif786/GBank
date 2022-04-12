@@ -46,8 +46,17 @@
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      AOS.init({
+        disable: function () {
+          var maxWidth = 800;
+          return window.innerWidth < maxWidth;
+        },
+      });
+    </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+      AOS.init({ disable: "mobile" });
       AOS.init();
     </script>
   </body>
