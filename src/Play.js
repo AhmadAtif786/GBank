@@ -32,7 +32,7 @@ const Play = () => {
               Play Now! <i class="fas fa-arrow-right"></i>
             </button>
           </Col>
-          <Col md={6} data-aos="fade-left">
+          <Col md={6} data-aos="flip-left">
             <img
               src={img2}
               style={{
