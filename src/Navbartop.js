@@ -12,7 +12,7 @@ const Navbartop = () => {
       >
         <Container className="ml-5 mr-5">
           <Navbar.Brand href="#home">
-            <img src={logo} style={{ width: "100px" }} />
+            <img src={logo} style={{ width: "120px" }} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav">
             {/* <i
