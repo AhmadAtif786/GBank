@@ -9,10 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(/public/back.svg);
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
+  background-color: #000000 !important;
 }
 row {
   padding: 10px !important;
